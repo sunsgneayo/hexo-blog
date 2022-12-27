@@ -1,11 +1,11 @@
-title: Hexo
+title: sunsgne
 subtitle: ''
 description: ''
 keywords: null
-author: 辣椒の酱
+author: sunsgne
 language: zh-CN
 timezone: ''
-url: 'https://removeif.github.io/'
+url: 'https://sunsgneayo.github.io/'
 root: /
 permalink: ':title.html'
 permalink_defaults: null
@@ -62,4 +62,6 @@ exclude: null
 ignore: null
 theme: amazing
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/sunsgneayo/sunsgneayo.github.io.git'
+  token: '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'

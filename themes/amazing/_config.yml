@@ -85,9 +85,6 @@ navbar:
         关于: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Join Gitter:
-            icon: fab fa-gitter
-            url: 'https://gitter.im/hexo-theme-amazing/community'
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/removeif/hexo-theme-amazing'

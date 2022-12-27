@@ -144,7 +144,7 @@ comment:
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
     owner: sunsgneayo         # (required) GitHub user name
-    repo: blog_comment          # (required) GitHub repository name
+    repo: hexo-blog          # (required) GitHub repository name
     client_id: 9cc0cc470d3b559c83ef     # (required) OAuth application client id
     client_secret: fbcf5e9e1b491fda900f5571ea2a03b7415a9f4d # (required) OAuth application client secret
     admin: ['sunsgneayo']

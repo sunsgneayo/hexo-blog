@@ -1,7 +1,7 @@
 ---
 title: 
 date: 2019-07-30 09:33:48
-thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030170254.png
+thumbnail: https://dogefs.s3.ladydaily.com/~/source/wallhaven/full/m3/wallhaven-m3pvy8.jpg?w=2560&h=1440&fmt=webp
 ---
 <div class="music-container">
     <div class="music-player">

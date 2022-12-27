@@ -1,6 +1,6 @@
 ---
 date: 2019-07-29 16:28:26
-thumbnail: https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20201030170940.png
+thumbnail: https://dogefs.s3.ladydaily.com/~/source/wallhaven/full/72/wallhaven-72yzje.jpg?w=2560&h=1440&fmt=webp
 ---
 # 🎈🎈微笑墙🎈🎈
 

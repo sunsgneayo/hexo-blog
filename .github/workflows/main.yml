@@ -1,0 +1,24 @@
+name: autoUpdateGithubIOPage # 自动更新sunsgne.github.io站点
+
+on:
+  push:
+    branches:
+      - site
+
+jobs:
+  run-coupons: # 任务名
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main  #采用main分支下的
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2  #安装node.js
+        with:
+          node-version: '14'
+
+      - name: Install npm And Run
+        run: |
+          npm install     
+          hexo clean
+          hexo g
+          hexo d

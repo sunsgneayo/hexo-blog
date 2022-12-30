@@ -28,5 +28,8 @@ jobs:
           hexo clean
           hexo g
           cd public/
-          git remote add origin https://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:x-oauth-basic@github.com/sunsgneayo/sunsgneayo.github.io.git
+          git init
+          git add .
+          git commit -m 'github action'
+#          //git remote add origin https://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:x-oauth-basic@github.com/sunsgneayo/sunsgneayo.github.io.git
           git push

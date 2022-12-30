@@ -27,8 +27,9 @@ jobs:
           npm install -g hexo-cli
           hexo clean
           hexo g
-#          hexo d
-          cd public/
+          hexo d
+
+#          cd public/
 #          git init
 #          git add .
 #          git commit -m 'github action'

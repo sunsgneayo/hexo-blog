@@ -64,4 +64,4 @@ theme: amazing
 deploy:
   type: 'git'
   repo: 'https://github.com/sunsgneayo/sunsgneayo.github.io.git'
-  token: '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'
+#  token: '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'

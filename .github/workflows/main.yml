@@ -16,6 +16,11 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Init git config
+        run: |
+          git config --global user.email 583985775@qq.com
+          git config --global user.name sunsgneayo
+
       - name: Install npm And Run
         run: |
           npm install   

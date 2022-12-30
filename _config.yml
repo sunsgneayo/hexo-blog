@@ -63,5 +63,5 @@ ignore: null
 theme: amazing
 deploy:
   type: 'git'
-  repo: 'ssh://github.com/sunsgneayo/sunsgneayo.github.io.git'
-#  token: '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'
+  repo: 'git://github.com/sunsgneayo/sunsgneayo.github.io.git'
+  token: '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'

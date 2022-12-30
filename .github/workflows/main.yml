@@ -48,7 +48,7 @@
 ##          git push
 
 
-name: CI
+name: autoUpdateGithubIOPage
 
 on:
   push:

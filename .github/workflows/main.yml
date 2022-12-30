@@ -21,7 +21,7 @@ jobs:
           git config --global user.email 583985775@qq.com
           git config --global user.name sunsgneayo
 
-      - name: Install npm And Run
+      - name: Install npm And Run #git remote add origin https://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:x-oauth-basic@github.com/sunsgneayo/sunsgneayo.github.io.git
         run: |
           npm install   
           npm install -g hexo-cli
@@ -31,5 +31,4 @@ jobs:
           git init
           git add .
           git commit -m 'github action'
-#          //git remote add origin https://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:x-oauth-basic@github.com/sunsgneayo/sunsgneayo.github.io.git
           git push

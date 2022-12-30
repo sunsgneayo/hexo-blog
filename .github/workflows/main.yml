@@ -27,5 +27,3 @@ jobs:
           npm install -g hexo-cli
           hexo clean
           hexo g
-          git remote set-url origin https://sunsgneayo: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@github.com/sunsgneayo/sunsgneayo.github.io.git
-          hexo d

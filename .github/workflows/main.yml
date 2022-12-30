@@ -28,5 +28,5 @@ jobs:
           hexo clean
           hexo g
           cd public/
-          ls
-          
+          git remote add origin https://${{token}}:x-oauth-basic@github.com/$username/sunsgneayo.github.io.git
+          git push

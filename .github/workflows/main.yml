@@ -17,13 +17,10 @@ jobs:
           node-version: '14'
 
 
-
       - name: Setup Deploy Private Key
         env:
           HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRI }}
-
         run: |
-      
           mkdir -p ~/.ssh/
           echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa 
           chmod 600 ~/.ssh/id_rsa
@@ -33,6 +30,8 @@ jobs:
         run: |
           git config --global user.email 583985775@qq.com
           git config --global user.name sunsgneayo
+          
+
       - name: Deploy Hexo
         run: |
           npm install   

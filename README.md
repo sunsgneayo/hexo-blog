@@ -15,7 +15,7 @@
 # hexo-theme-amazing
 ```bash
 git clone -b site https://github.com/removeif/hexo-theme-amazing.git myBlog 
-cd myBlog 
+cd myBlo
 npm install 
 hexo c 
 hexo g 

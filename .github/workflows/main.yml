@@ -16,18 +16,29 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Init git config
+
+
+      - name: Setup Deploy Private Key
+        env:
+          HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRI }}
+
+        run: |
+      
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa 
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Setup Git config
         run: |
           git config --global user.email 583985775@qq.com
           git config --global user.name sunsgneayo
-
-      - name: Install npm And Run #git remote add origin https://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:x-oauth-basic@github.com/sunsgneayo/sunsgneayo.github.io.git
+      - name: Deploy Hexo
         run: |
-          npm install   
-          npm install -g hexo-cli
           hexo clean
-          hexo g
-          hexo d
+          hexo generate 
+          hexo deploy
+
 
 #          cd public/
 #          git init

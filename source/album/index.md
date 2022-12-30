@@ -69,7 +69,7 @@ thumbnail: https://dogefs.s3.ladydaily.com/~/source/wallhaven/full/72/wallhaven-
 
 <br>
 
-> > **张柏芝**
+> **张柏芝**
 <div class="justified-gallery">
 
 ![张柏芝](https://82cjg.com/upload/image/20200807/1596815568303045.jpg)

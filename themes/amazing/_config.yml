@@ -85,6 +85,9 @@ navbar:
         关于: /about
     # Links to be shown on the right of the navigation bar
     links:
+        写文章:
+            icon: far fa-hand-point-up
+            url: 'https://github.com/sunsgneayo/hexo-blog/new/site/source/_posts'
         Download on GitHub:
             icon: fab fa-github
             url: 'https://github.com/removeif/hexo-theme-amazing'

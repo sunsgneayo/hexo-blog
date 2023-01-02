@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/sunsgneayo/hexo-blog/workflows/autoUpdateGithubIOPage/badge.svg?branch=site)](https://github.com/sunsgneayo/hexo-blog/actions)
+
 
 <div align="center" style="border-radius: 50px">
     <img width="260px"  src="https://cdn.sunsgne.top/logo-i.png" alt="sunsgne">
@@ -13,11 +13,10 @@
 </div>
 
 
+[![Build Status](https://github.com/sunsgneayo/hexo-blog/workflows/autoUpdateGithubIOPage/badge.svg?branch=site)](https://github.com/sunsgneayo/hexo-blog/actions)
 
 # hexo-theme-amazing
 ```bash
-git clone -b site https://github.com/removeif/hexo-theme-amazing.git myBlog 
-cd myBlo
 npm install 
 hexo c 
 hexo g 
